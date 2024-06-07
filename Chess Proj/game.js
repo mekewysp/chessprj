@@ -15,10 +15,10 @@ const startPiece = [
 
 function createBoard() {
     startPiece.forEach((piece,i) => {
-        const sqare = document.createElement('div')
-        sqare.classList.add('square')
-        sqare.innerHTML = piece
-        sqare.setAttribute("sqare-id", 1)
+        const square = document.createElement('div')
+        square.classList.add('square')
+        square.innerHTML = piece
+        square.setAttribute("sqare-id", 1)
 
         gameBoard.append(square)
     })
